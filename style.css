@@ -10,40 +10,44 @@ body {
     text-align: center;
 }
 .card {
-    width: 60%;
     margin: 3rem auto;
     background-color: hsl(0, 0%, 100%);
-    max-width: 500px;
+    width: 260px;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 13px;
+    font-size: 400;
+    color: hsl(220, 15%, 55%);
 }
 
 
-p {
-    font-size: 15px;
-    font-size: 400;
-    color: hsl(220, 15%, 55%);
+
+
+
+/* layout */
+
+.card_container {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.card_text_container {
+    padding: 1rem .7rem 1rem;
 }
 
 .qr_code {
     width: 100%;
 }
 
-
-
-/* layout */
-.card_container {
-    padding: 2rem;
-    margin: 0 auto;
-}
-
 h1 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    font-size: 28px;
+    padding-bottom: 1rem;
 }
 
-p {
-    padding-bottom: 2rem;
-}
 
 .card,
 .qr_code {
@@ -53,3 +57,16 @@ p {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: yellowgreen; }
+
+/*
+@media (max-width: 400px) {
+    .card {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}
+
+*/
